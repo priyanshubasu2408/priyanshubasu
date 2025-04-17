@@ -43,14 +43,20 @@ const Header = () => {
             </li>
           </ul>
           <div className="flex gap-2">
-            <Button variant="ghost" size="icon" className="rounded-full">
-              <Github size={20} />
+            <Button variant="ghost" size="icon" className="rounded-full" asChild>
+              <a href="https://github.com/priyanshubasu2408" target="_blank" rel="noopener noreferrer">
+                <Github size={20} />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="rounded-full">
-              <Linkedin size={20} />
+            <Button variant="ghost" size="icon" className="rounded-full" asChild>
+              <a href="https://www.linkedin.com/in/priyanshubasu/" target="_blank" rel="noopener noreferrer">
+                <Linkedin size={20} />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="rounded-full">
-              <Mail size={20} />
+            <Button variant="ghost" size="icon" className="rounded-full" asChild>
+              <a href="mailto:priyanshubasup@gmail.com">
+                <Mail size={20} />
+              </a>
             </Button>
           </div>
         </nav>
@@ -112,14 +118,20 @@ const Header = () => {
             </li>
           </ul>
           <div className="flex justify-center gap-4 mt-8">
-            <Button variant="ghost" size="icon" className="rounded-full">
-              <Github size={24} />
+            <Button variant="ghost" size="icon" className="rounded-full" asChild>
+              <a href="https://github.com/priyanshubasu2408" target="_blank" rel="noopener noreferrer">
+                <Github size={24} />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="rounded-full">
-              <Linkedin size={24} />
+            <Button variant="ghost" size="icon" className="rounded-full" asChild>
+              <a href="https://www.linkedin.com/in/priyanshubasu/" target="_blank" rel="noopener noreferrer">
+                <Linkedin size={24} />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="rounded-full">
-              <Mail size={24} />
+            <Button variant="ghost" size="icon" className="rounded-full" asChild>
+              <a href="mailto:priyanshubasup@gmail.com">
+                <Mail size={24} />
+              </a>
             </Button>
           </div>
         </nav>

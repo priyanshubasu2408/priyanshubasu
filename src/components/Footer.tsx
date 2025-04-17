@@ -19,7 +19,7 @@ const Footer = () => {
           
           <div className="flex items-center gap-4">
             <a 
-              href="#" 
+              href="https://github.com/priyanshubasu2408" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-secondary/40 transition-colors"
@@ -28,7 +28,7 @@ const Footer = () => {
               <Github className="h-5 w-5" />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/priyanshubasu/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-secondary/40 transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a 
-              href="#" 
+              href="https://twitter.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-secondary/40 transition-colors"
@@ -46,7 +46,7 @@ const Footer = () => {
               <Twitter className="h-5 w-5" />
             </a>
             <a 
-              href="mailto:hello@yourname.com" 
+              href="mailto:priyanshubasup@gmail.com" 
               className="p-2 rounded-full hover:bg-secondary/40 transition-colors"
               aria-label="Email"
             >

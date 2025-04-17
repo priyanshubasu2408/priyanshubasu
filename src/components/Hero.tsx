@@ -1,6 +1,7 @@
 
 import { ArrowRight, Code, Monitor, FileDown } from "lucide-react";
 import { Button } from "./ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 
 const Hero = () => {
   return (
@@ -10,6 +11,13 @@ const Hero = () => {
           <div className="space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20 animate-float">
               <span className="text-sm font-medium">Full-Stack Web Developer</span>
+            </div>
+            
+            <div className="flex items-center gap-4 mb-4">
+              <Avatar className="h-24 w-24 border-2 border-primary shadow-lg">
+                <AvatarImage src="/profile-pic.jpg" alt="Priyanshu Basu" />
+                <AvatarFallback>PB</AvatarFallback>
+              </Avatar>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance">
