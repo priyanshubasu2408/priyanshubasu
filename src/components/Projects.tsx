@@ -8,7 +8,7 @@ const Projects = () => {
   const projects = [
     {
       title: "E-Commerce Platform",
-      description: "A full-featured online shopping platform with product catalog, cart, and checkout functionality.",
+      description: "A comprehensive e-commerce solution demonstrating full-stack development skills, featuring dynamic product management and secure checkout processes.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=350&fit=crop",
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
       demoUrl: "#",
@@ -16,15 +16,15 @@ const Projects = () => {
     },
     {
       title: "Task Management App",
-      description: "A Kanban-style task management application with drag-and-drop functionality and team collaboration.",
+      description: "An advanced task management application with real-time collaboration features, showcasing my ability to create intuitive and efficient productivity tools.",
       image: "https://images.unsplash.com/photo-1555421689-3f034debb7a6?w=500&h=350&fit=crop",
       tags: ["React", "Redux", "Firebase", "Material UI"],
       demoUrl: "#",
       repoUrl: "#"
     },
     {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website with interactive UI elements and smooth animations.",
+      title: "Personal Portfolio",
+      description: "A modern, responsive portfolio website that reflects my design philosophy and technical capabilities, built with a focus on performance and user experience.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=350&fit=crop",
       tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       demoUrl: "#",
@@ -32,7 +32,7 @@ const Projects = () => {
     },
     {
       title: "Weather Dashboard",
-      description: "A real-time weather dashboard that displays current conditions and forecasts for any location.",
+      description: "A dynamic weather tracking application that provides real-time meteorological data with an intuitive and visually appealing interface.",
       image: "https://images.unsplash.com/photo-1527482797697-8795b05a13fe?w=500&h=350&fit=crop",
       tags: ["JavaScript", "OpenWeather API", "Chart.js", "Geolocation"],
       demoUrl: "#",
@@ -44,9 +44,10 @@ const Projects = () => {
     <section id="projects" className="section-padding bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="space-y-2 text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold">My Projects</h2>
+          <h2 className="text-3xl font-bold">Priyanshu's Projects</h2>
           <p className="text-muted-foreground text-pretty">
-            A selection of my recent web development projects.
+            A curated collection of projects that showcase my technical skills, 
+            creativity, and problem-solving approach.
           </p>
         </div>
         

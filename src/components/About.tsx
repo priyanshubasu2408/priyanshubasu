@@ -30,9 +30,10 @@ const About = () => {
     <section id="about" className="section-padding">
       <div className="container mx-auto px-4">
         <div className="space-y-2 text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold">About Me</h2>
+          <h2 className="text-3xl font-bold">About Priyanshu</h2>
           <p className="text-muted-foreground text-pretty">
-            I'm a passionate web developer specializing in creating modern digital experiences.
+            I'm a dedicated web developer with a passion for creating innovative 
+            and efficient digital solutions that push the boundaries of technology.
           </p>
         </div>
         
@@ -40,19 +41,19 @@ const About = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold">My Journey</h3>
             <p className="text-muted-foreground text-pretty leading-relaxed">
-              I've always been fascinated by the intersection of technology and creativity. 
-              My journey as a developer began with curiosity about how websites work, which
-              led me to dive deep into HTML, CSS, and JavaScript. 
+              As a passionate technologist, my journey in web development began 
+              with a curiosity to understand how digital experiences are crafted. 
+              What started as a hobby quickly transformed into a deep commitment 
+              to creating meaningful, user-centric digital solutions.
             </p>
             <p className="text-muted-foreground text-pretty leading-relaxed">
-              Over the years, I've expanded my skill set to include modern frameworks and technologies, 
-              allowing me to build complete web solutions from concept to deployment. I'm constantly
-              learning and exploring new technologies to stay at the forefront of web development.
+              I've honed my skills across various technologies, from frontend 
+              frameworks to backend architectures, always driven by the goal of 
+              delivering exceptional user experiences.
             </p>
             <p className="text-muted-foreground text-pretty leading-relaxed">
-              My approach combines technical expertise with a focus on user experience and design,
-              ensuring that the applications I build are not only functional but also intuitive and
-              enjoyable to use.
+              My approach blends technical expertise with creative problem-solving, 
+              ensuring that every project is not just functional, but truly innovative.
             </p>
           </div>
           

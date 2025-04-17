@@ -13,12 +13,13 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-balance">
-              Creating <span className="text-gradient">innovative</span> web experiences
+              Hi, I'm <span className="text-gradient">Priyanshu Basu</span>
             </h1>
             
             <p className="text-lg text-muted-foreground max-w-lg text-pretty">
-              I design and build modern, responsive websites and web applications 
-              that deliver exceptional user experiences.
+              I'm a passionate web developer who transforms ideas into elegant, 
+              functional digital solutions. With expertise in modern web technologies, 
+              I create responsive and intuitive web experiences.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">

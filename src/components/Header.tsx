@@ -23,7 +23,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#hero" className="text-xl font-bold text-gradient">
-          <span className="font-mono">dev</span>Portfolio
+          <span className="font-mono">Priyanshu</span>Basu
         </a>
 
         {/* Desktop Navigation */}
