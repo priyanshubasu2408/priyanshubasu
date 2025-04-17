@@ -1,5 +1,5 @@
 
-import { ArrowRight, Code, Monitor } from "lucide-react";
+import { ArrowRight, Code, Monitor, FileDown } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Hero = () => {
@@ -32,6 +32,13 @@ const Hero = () => {
               
               <Button asChild variant="outline" size="lg">
                 <a href="#contact">Contact Me</a>
+              </Button>
+              
+              <Button asChild variant="secondary" size="lg" className="group">
+                <a href="/resume.pdf" download="Priyanshu_Basu_Resume.pdf">
+                  Download Resume
+                  <FileDown className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-1" />
+                </a>
               </Button>
             </div>
           </div>
