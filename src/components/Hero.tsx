@@ -14,9 +14,8 @@ const Hero = () => {
             </div>
             
             <div className="flex items-center gap-4 mb-4">
-              <Avatar className="h-24 w-24 border-2 border-primary shadow-lg">
-                <AvatarImage src="/profile-pic.jpg" alt="Priyanshu Basu" />
-                <AvatarFallback>PB</AvatarFallback>
+              <Avatar className="border-2 border-primary shadow-lg " style={{ height: '240px', width: '210px' }}>
+                <AvatarImage src="/priyanshu.jpg" alt="Priyanshu Basu" />
               </Avatar>
             </div>
             

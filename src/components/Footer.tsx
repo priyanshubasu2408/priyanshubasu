@@ -36,15 +36,7 @@ const Footer = () => {
             >
               <Linkedin className="h-5 w-5" />
             </a>
-            <a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-2 rounded-full hover:bg-secondary/40 transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter className="h-5 w-5" />
-            </a>
+            
             <a 
               href="mailto:priyanshubasup@gmail.com" 
               className="p-2 rounded-full hover:bg-secondary/40 transition-colors"

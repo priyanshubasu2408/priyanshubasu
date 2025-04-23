@@ -10,7 +10,7 @@ const Skills = () => {
   const skillCategories = {
     frontend: [
       { name: "HTML5", proficiency: 95, icon: "🌐" },
-      { name: "CSS3/Sass", proficiency: 90, icon: "🎨" },
+      { name: "CSS3", proficiency: 90, icon: "🎨" },
       { name: "JavaScript (ES6+)", proficiency: 90, icon: "📜" },
       { name: "TypeScript", proficiency: 85, icon: "🔷" },
       { name: "React", proficiency: 90, icon: "⚛️" },
@@ -24,19 +24,19 @@ const Skills = () => {
       { name: "MongoDB", proficiency: 75, icon: "🍃" },
       { name: "PostgreSQL", proficiency: 70, icon: "🐘" },
       { name: "REST APIs", proficiency: 90, icon: "🔄" },
-      { name: "GraphQL", proficiency: 70, icon: "⬢" },
-      { name: "Firebase", proficiency: 75, icon: "🔥" },
-      { name: "Authentication", proficiency: 85, icon: "🔐" }
+      // { name: "GraphQL", proficiency: 70, icon: "⬢" },
+      // { name: "Firebase", proficiency: 75, icon: "🔥" },
+      // { name: "Authentication", proficiency: 85, icon: "🔐" }
     ],
     tools: [
       { name: "Git/GitHub", proficiency: 90, icon: "🐙" },
-      { name: "Docker", proficiency: 65, icon: "🐳" },
+      // { name: "Docker", proficiency: 65, icon: "🐳" },
       { name: "VS Code", proficiency: 95, icon: "💻" },
-      { name: "Webpack", proficiency: 70, icon: "📦" },
-      { name: "Jest", proficiency: 75, icon: "🃏" },
-      { name: "CI/CD", proficiency: 65, icon: "🔄" },
+      // { name: "Webpack", proficiency: 70, icon: "📦" },
+      // { name: "Jest", proficiency: 75, icon: "🃏" },
+      // { name: "CI/CD", proficiency: 65, icon: "🔄" },
       { name: "Figma", proficiency: 80, icon: "🎨" },
-      { name: "NPM/Yarn", proficiency: 90, icon: "📦" }
+      // { name: "NPM/Yarn", proficiency: 90, icon: "📦" }
     ]
   };
 
