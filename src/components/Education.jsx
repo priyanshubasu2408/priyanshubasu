@@ -20,17 +20,30 @@ const Education = () => (
             Bachelor of Technology, Computer Science & Engineering
           </h3>
           <div className="text-muted-foreground text-sm mt-1">
-            Netaji Subhash Engineering College, Kolkata <br />
-            2021 – Present
+            Lovely Professional University, Punjab <br />
+            2022 – Present
           </div>
           <div className="mt-2 text-sm">
-            Current CGPA: 8.84/10
+            Current CGPA: 7.03/10
           </div>
         </div>
-        {/* Add more entries if there are more qualifications in the future */}
+        <div className="bg-secondary/30 rounded-lg p-6 shadow">
+          <h3 className="text-xl font-playfair font-semibold flex items-center gap-2">
+            <School className="w-5 h-5 text-accent" />
+            Intermediate
+          </h3>
+          <div className="text-muted-foreground text-sm mt-1">
+            S.L. D.A.V. Public School <br />
+            2020 – 2022
+          </div>
+          <div className="mt-2 text-sm">
+            Percentage: 82%
+          </div>
+        </div>
       </div>
     </div>
   </section>
 );
 
 export default Education;
+

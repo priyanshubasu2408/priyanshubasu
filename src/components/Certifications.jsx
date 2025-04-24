@@ -17,24 +17,45 @@ const Certifications = () => (
         <div className="bg-background rounded-lg border border-border/30 p-6 shadow card-hover flex flex-col gap-2">
           <div className="flex items-center gap-2 font-semibold">
             <BookOpen className="w-5 h-5 text-accent" />
-            Coursera: Meta Front-End Developer Professional Certificate
+            Cloud Computing
           </div>
           <div className="text-muted-foreground text-sm">
-            <span className="font-mono">Issued Apr 2024</span> <br />
-            <a
-              href="https://www.coursera.org/account/accomplishments/professional-cert/ABCDEF"
-              className="text-primary underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <span className="font-mono">NPTEL — October 2024</span> <br />
+            <a href="#" className="text-primary underline" target="_blank" rel="noopener noreferrer">
               View Certificate
             </a>
           </div>
         </div>
-        {/* Add more certifications as needed */}
+
+        <div className="bg-background rounded-lg border border-border/30 p-6 shadow card-hover flex flex-col gap-2">
+          <div className="flex items-center gap-2 font-semibold">
+            <BookOpen className="w-5 h-5 text-accent" />
+            Data Structures And Algorithm
+          </div>
+          <div className="text-muted-foreground text-sm">
+            <span className="font-mono">Boards Infinity — July 2022</span> <br />
+            <a href="#" className="text-primary underline" target="_blank" rel="noopener noreferrer">
+              View Certificate
+            </a>
+          </div>
+        </div>
+
+        <div className="bg-background rounded-lg border border-border/30 p-6 shadow card-hover flex flex-col gap-2">
+          <div className="flex items-center gap-2 font-semibold">
+            <BookOpen className="w-5 h-5 text-accent" />
+            HTML, CSS And Javascript for Web Developers
+          </div>
+          <div className="text-muted-foreground text-sm">
+            <span className="font-mono">Coursera — May 2024</span> <br />
+            <a href="#" className="text-primary underline" target="_blank" rel="noopener noreferrer">
+              View Certificate
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 );
 
 export default Certifications;
+
